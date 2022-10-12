@@ -7,7 +7,7 @@ int stepy;
 void setup() {
   background(255);
   size(600, 600);
- 
+  ellipseMode(CENTER);
   strokeWeight(random(6));
   stepx = (width/cols);
   stepy = (height/rows);
