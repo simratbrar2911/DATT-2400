@@ -98,6 +98,7 @@ void draw() {
           noFill();
         }
       }
+      // saves the image 
       save("assignment.png");
     }
     
